@@ -1,0 +1,17 @@
+[
+    {
+        "imgSrc": "/img/values/values-1.png",
+        "title": "Integrity",
+        "description": "At Munim Consulting Group, integrity is non-negotiable. We uphold the highest ethical standards in all our dealings, ensuring honesty, trustworthiness, and transparency."
+    },
+    {
+        "imgSrc": "/img/values/values-2.png",
+        "title": "Client-Centricity",
+        "description": "Client success is our top priority. We tailor our services to meet each client's unique needs, providing personalized solutions and dedicated support every step of the way."
+    },
+    {
+        "imgSrc": "/img/values/values-3.png",
+        "title": "Excellence",
+        "description": "We strive for excellence in everything we do. Our team of seasoned professionals delivers top-notch services, leveraging expertise in tax advisory, auditing, and strategic planning to achieve outstanding results for our clients."
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "id": "accounting",
+        "iconClass": "ri-discuss-line",
+        "title": "Accounting",
+        "description": [
+            "Accounting as per NAS/NFRS",
+            "Cost Accounting",
+            "Payroll Management",
+            "Auditing & Assurances",
+            "Internal Control",
+            "Bank Reconciliation",
+            "Accounts receivable/payable reconciliation"
+        ],
+        "readMoreLink": "services/1?slug=account"
+    },
+    {
+        "id": "tax",
+        "iconClass": "ri-discuss-line",
+        "title": "Tax",
+        "description": [
+            "Tax Audit",
+            "Income Tax Return Filing",
+            "Vat Return Filing",
+            "Tax Clearance",
+            "Tax Consulting",
+            "TDS & E-TDS"
+        ],
+        "readMoreLink": "services/2?slug=tax"
+    },
+    {
+        "id": "loan",
+        "iconClass": "ri-discuss-line",
+        "title": "Loan",
+        "description": [
+            "Preparation of Projected Financial Statements",
+            "Preparation of Loan Proposal"
+        ],
+        "readMoreLink": "services/3?slug=loan"
+    },
+    {
+        "id": "company-related",
+        "iconClass": "ri-discuss-line",
+        "title": "Company Related",
+        "description": [
+            "Company & Firm Registration",
+            "Company Update",
+            "Firm Renewal",
+            "Share Transfer",
+            "Company Address, Objective, Name Change",
+            "Closure of Business"
+        ],
+        "readMoreLink": "services/4?slug=company"
+    },
+    {
+        "id": "financial-management",
+        "iconClass": "ri-discuss-line",
+        "title": "Financial Management",
+        "description": [
+            "Budgeting",
+            "Ratio & Trend Analysis",
+            "Investment Consulting",
+            "Due Diligence"
+        ],
+        "readMoreLink": "services/5?slug=finance"
+    },
+    {
+        "id": "training",
+        "iconClass": "ri-discuss-line",
+        "title": "Training",
+        "description": [
+            "Accounting Related",
+            "Tax Related",
+            "NFRS Related",
+            "Management Related",
+            "Workshops & Seminars"
+        ],
+        "readMoreLink": "services/6?slug=training"
+    }
+]

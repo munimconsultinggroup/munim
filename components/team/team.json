@@ -1,0 +1,50 @@
+[
+    {
+        "imgSrc": "/img/team/team-1.jpg",
+        "name": "Walter White",
+        "position": "Chief Executive Officer",
+        "description": "Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.",
+        "social": {
+            "twitter": "#",
+            "facebook": "#",
+            "instagram": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "imgSrc": "/img/team/team-2.jpg",
+        "name": "Sarah Jhonson",
+        "position": "Product Manager",
+        "description": "Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.",
+        "social": {
+            "twitter": "#",
+            "facebook": "#",
+            "instagram": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "imgSrc": "/img/team/team-3.jpg",
+        "name": "William Anderson",
+        "position": "CTO",
+        "description": "Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.",
+        "social": {
+            "twitter": "#",
+            "facebook": "#",
+            "instagram": "#",
+            "linkedin": "#"
+        }
+    },
+    {
+        "imgSrc": "/img/team/team-4.jpg",
+        "name": "Amanda Jepson",
+        "position": "Accountant",
+        "description": "Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.",
+        "social": {
+            "twitter": "#",
+            "facebook": "#",
+            "instagram": "#",
+            "linkedin": "#"
+        }
+    }
+]
