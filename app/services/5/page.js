@@ -3,7 +3,10 @@ import React from "react";
 import fs from "fs";
 import path from "path";
 
-// Example component to demonstrate reading JSON data
+export const metadata = {
+  title: "Financial Services",
+};
+
 function Page() {
   const slug = "finance";
 

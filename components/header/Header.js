@@ -12,8 +12,8 @@ const Header = () => {
               className="img-fluid"
               src="/img/logo_munim.svg"
               alt="Munim Consulting Group Logo"
-              width={100}
-              height={100}
+              width={120}
+              height={120}
             />
           </a>
 

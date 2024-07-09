@@ -8,7 +8,10 @@ import Footer from "@/components/footer/Footer";
 import ScrollToTopButton from "@/components/buttons/ScrollToTopButton";
 
 export const metadata = {
-  title: "Munim Consulting Group - Financial Consulting Services",
+  title: {
+    template: "%s | Munim Consulting Group",
+    default: "Munim Consulting Group - Financial Consulting Services",
+  },
   description: "Munim Consulting Group - Your Trusted Financial Advisors",
 };
 
