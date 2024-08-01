@@ -21,15 +21,16 @@ const About = () => {
                 towards prosperity.
               </h2>
               <p>
-                In today's challenging financial landscape, Munim Consulting
-                Group is a beacon of integrity and reliability. We prioritize
-                long-lasting relationships founded on trust, transparency, and
-                mutual respect. Our mission extends beyond providing exceptional
-                financial services; we empower clients with knowledge and
-                insights for informed decision-making. Whether you're a startup
-                seeking guidance or an established enterprise navigating growth,
-                Munim Consulting Group is your steadfast ally on the path to
-                sustainable success and prosperity.
+                In today&apos;s challenging financial landscape, Munim
+                Consulting Group is a beacon of integrity and reliability. We
+                prioritize long-lasting relationships founded on trust,
+                transparency, and mutual respect. Our mission extends beyond
+                providing exceptional financial services; we empower clients
+                with knowledge and insights for informed decision-making.
+                Whether you&apos;re a startup seeking guidance or an established
+                enterprise navigating growth, Munim Consulting Group is your
+                steadfast ally on the path to sustainable success and
+                prosperity.
               </p>
               <div className="text-center text-lg-start">
                 <a
