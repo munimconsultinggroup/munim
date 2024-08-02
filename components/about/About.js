@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+/* eslint-disable @next/next/no-img-element */
 const About = () => {
   return (
     <section id="about" className="about">
@@ -49,11 +48,10 @@ const About = () => {
             data-aos="zoom-out"
             data-aos-delay="200"
           >
-            <Image
+            <img
               src="/img/about.jpg"
               className="img-fluid"
-              width={500}
-              height={500}
+              style={{ width: 500, height: 500 }}
               alt=""
             />
           </div>

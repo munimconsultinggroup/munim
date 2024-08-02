@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 import servicesData from "./values.json";
 
 const Values = () => {
@@ -19,10 +19,9 @@ const Values = () => {
               className={`col-lg-4 mt-4 ${index !== 0 ? "mt-lg-0" : ""}`}
             >
               <div className="box">
-                <Image
+                <img
                   src={value.imgSrc}
-                  width={300}
-                  height={300}
+                  style={{ width: "300px", height: "300px" }}
                   className="img-fluid"
                   alt=""
                 />
