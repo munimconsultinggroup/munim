@@ -12,7 +12,7 @@
             "Bank Reconciliation",
             "Accounts receivable/payable reconciliation"
         ],
-        "readMoreLink": "services/1?slug=account"
+        "readMoreLink": "1?slug=account"
     },
     {
         "id": "tax",
@@ -26,7 +26,7 @@
             "Tax Consulting",
             "TDS & E-TDS"
         ],
-        "readMoreLink": "services/2?slug=tax"
+        "readMoreLink": "2?slug=tax"
     },
     {
         "id": "loan",
@@ -36,7 +36,7 @@
             "Preparation of Projected Financial Statements",
             "Preparation of Loan Proposal"
         ],
-        "readMoreLink": "services/3?slug=loan"
+        "readMoreLink": "3?slug=loan"
     },
     {
         "id": "company-related",
@@ -50,7 +50,7 @@
             "Company Address, Objective, Name Change",
             "Closure of Business"
         ],
-        "readMoreLink": "services/4?slug=company"
+        "readMoreLink": "4?slug=company"
     },
     {
         "id": "financial-management",
@@ -62,7 +62,7 @@
             "Investment Consulting",
             "Due Diligence"
         ],
-        "readMoreLink": "services/5?slug=finance"
+        "readMoreLink": "5?slug=finance"
     },
     {
         "id": "training",
@@ -75,6 +75,6 @@
             "Management Related",
             "Workshops & Seminars"
         ],
-        "readMoreLink": "services/6?slug=training"
+        "readMoreLink": "6?slug=training"
     }
 ]
