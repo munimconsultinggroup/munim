@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 import teamData from "./team.json";
 
 const Team = () => {
@@ -19,10 +19,9 @@ const Team = () => {
             >
               <div className="member">
                 <div className="member-img">
-                  <Image
+                  <img
                     src={member.imgSrc}
-                    width={200}
-                    height={200}
+                    style={{ width: "300px", height: "300px" }}
                     className="img-fluid"
                     alt=""
                   />
