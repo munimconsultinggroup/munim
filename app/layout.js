@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Script from "next/script";
 
 import "../styles/style.css";
 
@@ -23,6 +24,12 @@ export default function RootLayout({ children }) {
         <main className="container mt-4">{children}</main>
         <Footer />
         <ScrollToTopButton />
+        <Script
+          src="https://www.chatbase.co/embed.min.js"
+          chatbotId="LZrzOXxSpxCP7xXQT2Xjh"
+          domain="www.chatbase.co"
+          defer
+        />
       </body>
     </html>
   );
