@@ -7,6 +7,7 @@ import "../styles/style.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import ScrollToTopButton from "@/components/buttons/ScrollToTopButton";
+import BootstrapProvider from "@/components/bootstrap/BootstrapProvider";
 
 export const metadata = {
   title: {
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
           defer
         />
       </body>
+      <BootstrapProvider/>
     </html>
   );
 }

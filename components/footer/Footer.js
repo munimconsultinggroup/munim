@@ -27,7 +27,7 @@ const Footer = () => {
               <h2 style={{ display: "inline" }} className="fw-bold">
                 Munim <br /> Consulting Group
               </h2>
-              <h6 style={{ display: "inline" }} className="fw-bold">
+              <h6 style={{ display: "inline" }} className="fw-bold mx-2">
                 Pvt. Ltd.
               </h6>
               <h6>
@@ -115,7 +115,7 @@ const Footer = () => {
             <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
               <h4>Contact Us</h4>
               <p>
-                Buddhanagar <br />
+                Koteshwor <br />
                 Kathmandu, Nepal
                 <br />
                 <strong>Phone:</strong> +977 9860701995, 9849938446

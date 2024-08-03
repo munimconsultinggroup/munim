@@ -2,33 +2,25 @@
     {
         "id": 1,
         "stars": 5,
-        "content": "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
-        "name": "Saul Goodman",
-        "title": "CEO & Founder",
+        "content": "Working with Munim has been a game-changer for our financial management. Their expertise and dedication to providing the best solutions are unmatched.",
+        "name": "Santosh Timalsina",
+        "title": "Founder, Visit Sindhupalchowk",
         "image": "/img/testimonials/testimonials-1.jpg"
     },
     {
         "id": 2,
         "stars": 5,
-        "content": "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
-        "name": "Sara Wilsson",
-        "title": "Designer",
-        "image": "/img/testimonials/testimonials-2.jpg"
+        "content": "Munim has simplified our accounting process tremendously. Their team is always ready to help and provide valuable insights to improve our financial operations.",
+        "name": "Ujjwal Shrestha",
+        "title": "CEO",
+        "image": "/img/testimonials/testimonials-4.jpg"
     },
     {
         "id": 3,
         "stars": 5,
-        "content": "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
-        "name": "Jena Karlis",
-        "title": "Store Owner",
+        "content": "The professionalism and efficiency that Munim brings to the table are commendable. They have been a reliable partner in managing our finances effectively.",
+        "name": "Saroj Chaulagain",
+        "title": "Managing Director",
         "image": "/img/testimonials/testimonials-3.jpg"
-    },
-    {
-        "id": 4,
-        "stars": 5,
-        "content": "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
-        "name": "Matt Brandon",
-        "title": "Freelancer",
-        "image": "/img/testimonials/testimonials-4.jpg"
     }
 ]

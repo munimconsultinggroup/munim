@@ -28,7 +28,23 @@
         "altText": "Client 7"
     },
     {
-        "imageSrc": "/img/clients/client-8.png",
+        "imageSrc": "/img/clients/client-6.png",
         "altText": "Client 8"
+    },
+    {
+        "imageSrc": "/img/clients/client-7.png",
+        "altText": "Client 9"
+    },
+    {
+        "imageSrc": "/img/clients/client-6.png",
+        "altText": "Client 10"
+    },
+    {
+        "imageSrc": "/img/clients/client-7.png",
+        "altText": "Client 11"
+    },
+    {
+        "imageSrc": "/img/clients/client-6.png",
+        "altText": "Client 12"
     }
 ]
