@@ -1,5 +1,5 @@
 import About from "@/components/about/About";
-import Team from "@/components/team/Team";
+// import Team from "@/components/team/Team";
 import Values from "@/components/values/Values";
 
 export const metadata = {
@@ -11,7 +11,7 @@ const page = () => {
     <>
       <About />
       <Values />
-      <Team />
+      {/* <Team /> */}
     </>
   );
 };

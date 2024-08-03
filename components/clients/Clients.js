@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 import clientsData from "./clients.json"; // Adjust path as per your file structure
 
 const Clients = () => {
@@ -14,18 +14,17 @@ const Clients = () => {
   };
 
   // Chunk clientsData into groups of 3 images per carousel item
-  const chunkedClients = chunkArray(clientsData, 3);
+  const chunkedClients = chunkArray(clientsData, 6);
 
   return (
     <section id="clients" className="clients">
       <div className="container" data-aos="fade-up">
         <header className="section-header">
-          <h2>Our Clients</h2>
           <p>Our Satisfied Clients</p>
         </header>
 
         <div
-          id="carouselExampleAutoplaying"
+          id="carouselAutoplaying"
           className="carousel slide"
           data-bs-ride="carousel"
         >
@@ -34,15 +33,15 @@ const Clients = () => {
               <div
                 key={index}
                 className={`carousel-item ${index === 0 ? "active" : ""}`}
+                data-bs-interval="10000"
               >
                 <div className="row">
                   {chunk.map((client, idx) => (
-                    <div key={idx} className="col-md-4">
-                      <Image
+                    <div key={idx} className="col">
+                      <img
                         src={client.imageSrc}
-                        width={100}
-                        height={100}
-                        className="d-block img-fluid"
+                        style={{ width: 90, height: 70 }}
+                        className="img-fluid"
                         alt={client.altText}
                       />
                     </div>
@@ -55,7 +54,7 @@ const Clients = () => {
           <button
             className="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-target="#carouselAutoplaying"
             data-bs-slide="prev"
           >
             <span
@@ -67,7 +66,7 @@ const Clients = () => {
           <button
             className="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-target="#carouselAutoplaying"
             data-bs-slide="next"
           >
             <span

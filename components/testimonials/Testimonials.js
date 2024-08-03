@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 import testimonialsData from "./testimonials.json"; // Adjust the path according to your project structure
 
 const Testimonials = () => {
@@ -7,40 +7,67 @@ const Testimonials = () => {
     <section id="testimonials" className="testimonials">
       <div className="container" data-aos="fade-up">
         <header className="section-header">
-          <h2>Testimonials</h2>
           <p>What they are saying about us</p>
         </header>
+
         <div
-          className="testimonials-slider swiper"
-          data-aos="fade-up"
-          data-aos-delay="200"
+          id="testimonialsCarousel"
+          className="carousel slide"
+          data-bs-ride="carousel"
         >
-          <div className="swiper-wrapper">
-            {testimonialsData.map((testimonial) => (
-              <div key={testimonial.id} className="swiper-slide">
-                <div className="testimonial-item">
+          <div className="carousel-inner">
+            {testimonialsData.map((testimonial, index) => (
+              <div
+                key={testimonial.id}
+                className={`carousel-item ${index === 0 ? "active" : ""}`}
+                data-bs-interval="10000"
+              >
+                <div className="testimonial-item text-center">
                   <div className="stars">
                     {Array.from({ length: testimonial.stars }, (_, index) => (
                       <i key={index} className="bi bi-star-fill"></i>
                     ))}
                   </div>
                   <p>{testimonial.content}</p>
-                  <div className="profile mt-auto">
-                    <Image
+                  <h3>{testimonial.name}</h3>
+                  <h4>{testimonial.title}</h4>
+                  {/* <div className="profile mt-auto">
+                    <img
                       src={testimonial.image}
-                      className="img-fluid"
+                      className="img-fluid rounded-circle"
                       alt={testimonial.name}
-                      width={100}
-                      height={100}
+                      style={{ width: 100, height: 100 }}
                     />
-                    <h3>{testimonial.name}</h3>
-                    <h4>{testimonial.title}</h4>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
           </div>
-          <div className="swiper-pagination"></div>
+
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
