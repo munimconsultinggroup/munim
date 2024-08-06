@@ -11,16 +11,16 @@
         "id": 2,
         "stars": 5,
         "content": "Munim has simplified our accounting process tremendously. Their team is always ready to help and provide valuable insights to improve our financial operations.",
-        "name": "Ujjwal Shrestha",
-        "title": "CEO",
+        "name": "Surendra Shrestha",
+        "title": "Chairman, Avyudaya Group",
         "image": "/img/testimonials/testimonials-4.jpg"
     },
     {
         "id": 3,
         "stars": 5,
         "content": "The professionalism and efficiency that Munim brings to the table are commendable. They have been a reliable partner in managing our finances effectively.",
-        "name": "Saroj Chaulagain",
-        "title": "Managing Director",
+        "name": "Neelam Maharjan",
+        "title": "Chairperson, Bishandevi Group",
         "image": "/img/testimonials/testimonials-3.jpg"
     }
 ]

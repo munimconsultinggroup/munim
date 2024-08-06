@@ -6,9 +6,9 @@ import NavbarToggleButton from "../buttons/NavbarToggleButton";
 
 const links = [
   { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Services", path: "/services" },
-  { name: "Contact", path: "/contact" },
+  { name: "About", path: "/about/" },
+  { name: "Services", path: "/services/" },
+  { name: "Contact", path: "/contact/" },
   // Add more links as needed
 ];
 
