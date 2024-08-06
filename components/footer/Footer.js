@@ -75,19 +75,19 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">About us</a>
+                  <a href="/about/">About us</a>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">Services</a>
+                  <a href="/services/">Services</a>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">Terms of service</a>
+                  <a href="/terms-conditions">Terms of service</a>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">Privacy policy</a>
+                  <a href="/privacy-policy">Privacy policy</a>
                 </li>
               </ul>
             </div>
@@ -97,25 +97,27 @@ const Footer = () => {
               <ul>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">Accounting</a>
-                </li>
-                <li>
-                  <i className="bi bi-chevron-right"></i> <a href="#">Tax</a>
-                </li>
-                <li>
-                  <i className="bi bi-chevron-right"></i> <a href="#">Loan</a>
+                  <a href="/services/1/?slug=account">Accounting</a>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">Company Related</a>
+                  <a href="/services/2/?slug=tax">Tax</a>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">Business Management</a>
+                  <a href="/services/3/?slug=loan">Loan</a>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <a href="#">Training</a>
+                  <a href="/services/4/?slug=company">Company Related</a>
+                </li>
+                <li>
+                  <i className="bi bi-chevron-right"></i>{" "}
+                  <a href="/services/5/?slug=finance">Business Management</a>
+                </li>
+                <li>
+                  <i className="bi bi-chevron-right"></i>{" "}
+                  <a href="/services/6/?slug=training">Training</a>
                 </li>
               </ul>
             </div>
