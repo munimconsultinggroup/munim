@@ -56,6 +56,14 @@ const Footer = () => {
                 >
                   <i className="bi bi-instagram"></i>
                 </a>
+                <a
+                  href="https://www.linkedin.com/company/munim-consulting-group"
+                  className="linkedin"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <i className="bi bi-linkedin"></i>
+                </a>
               </div>
             </div>
 
